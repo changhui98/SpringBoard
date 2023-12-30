@@ -41,4 +41,20 @@ public class Question {
     public void setCreateDate(LocalDateTime createDate) {
         this.createDate = createDate;
     }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public String getSubject() {
+        return subject;
+    }
+
+    public String getContent() {
+        return content;
+    }
+
+    public LocalDateTime getCreateDate() {
+        return createDate;
+    }
 }
