@@ -1,6 +1,6 @@
-package com.hui.answer;
+package com.hui.project.answer;
 
-import com.hui.question.Question;
+import com.hui.project.question.Question;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

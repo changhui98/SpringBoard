@@ -1,9 +1,9 @@
 package com.hui.project;
 
-import com.hui.answer.Answer;
-import com.hui.answer.AnswerRepository;
-import com.hui.question.Question;
-import com.hui.question.QuestionRepository;
+import com.hui.project.answer.Answer;
+import com.hui.project.answer.AnswerRepository;
+import com.hui.project.question.Question;
+import com.hui.project.question.QuestionRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

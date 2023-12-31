@@ -1,4 +1,4 @@
-package com.hui.question;
+package com.hui.project.question;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
