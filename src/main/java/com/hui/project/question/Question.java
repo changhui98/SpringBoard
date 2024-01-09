@@ -13,6 +13,7 @@ import java.util.List;
 @Setter
 @Entity
 public class Question {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
@@ -33,7 +34,8 @@ public class Question {
 
     private LocalDateTime modifyDate;
 
-
+    @Column(columnDefinition = "integer default 0", nullable = false)
+    private int view;
 
 
 }

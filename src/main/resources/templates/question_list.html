@@ -8,6 +8,7 @@
                     <td style="width:50%">제목</td>
                     <td>글쓴이</td>
                     <td>작성일시</td>
+                    <td>조회수</td>
                 </tr>
             </thead>
             <tbody>
@@ -27,6 +28,7 @@
                     <td th:text="${#temporals.format(question.createDate,'yyyy-MM-dd HH:mm')}">
 
                     </td>
+                    <td th:text="${question.view}"></td>
                 </tr>
             </tbody>
         </table>
