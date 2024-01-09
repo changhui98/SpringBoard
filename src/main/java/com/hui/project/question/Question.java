@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -36,6 +37,9 @@ public class Question {
 
     @Column(columnDefinition = "integer default 0", nullable = false)
     private int view;
+
+    @ManyToMany
+    Set<SiteUser> voter;
 
 
 }
